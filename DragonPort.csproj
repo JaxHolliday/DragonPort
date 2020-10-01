@@ -75,8 +75,10 @@
     <Content Include="Content\style.css" />
     <Content Include="Content\venobox.css" />
     <Content Include="Images\breakroom.jpg" />
-    <Content Include="Images\portfolio-7.jpg" />
     <Content Include="Images\0.jpg" />
+    <Content Include="Images\BugTracker.png" />
+    <Content Include="Images\Finance.png" />
+    <Content Include="Images\IWqOc.png" />
     <Content Include="Index.html" />
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
