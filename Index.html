@@ -571,7 +571,7 @@
 
                     <!-- Contact Form -->
                     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form" id="frmContact">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="name">Your Name</label>
@@ -635,9 +635,10 @@
     <!-- Custom JS Scripts -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">emailjs.init('user_cOvv9B5yyEe1usYCVGBN2')</script>
-    <script>const btn = document.getElementById('button');
+    <script>
+        const btn = document.getElementById('button');
 
-        document.getElementById('form')
+        document.getElementById('frmContact')
             .addEventListener('submit', function (event) {
                 event.preventDefault();
 
