@@ -78,6 +78,7 @@
     <Content Include="Images\0.jpg" />
     <Content Include="Images\BugTracker.png" />
     <Content Include="Images\Finance.png" />
+    <Content Include="Images\Sum of All Fears.png" />
     <Content Include="Images\Sunset Hills.png" />
     <Content Include="Index.html" />
     <Content Include="Scripts\aos.js" />
