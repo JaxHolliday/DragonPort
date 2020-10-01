@@ -74,11 +74,9 @@
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\venobox.css" />
-    <Content Include="Images\Earth-From-Space-Wallpapers-HD.jpg" />
+    <Content Include="Images\breakroom.jpg" />
     <Content Include="Images\portfolio-7.jpg" />
     <Content Include="Images\0.jpg" />
-    <Content Include="Images\apple-touch-icon.png" />
-    <Content Include="Images\favicon.png" />
     <Content Include="Index.html" />
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
