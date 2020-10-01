@@ -76,7 +76,7 @@
     <Content Include="Content\venobox.css" />
     <Content Include="Images\apple-touch-icon.png" />
     <Content Include="Images\favicon.png" />
-    <Content Include="Portfolio.html" />
+    <Content Include="Index.html" />
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\counterup.min.js" />
