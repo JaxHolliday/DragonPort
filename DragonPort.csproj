@@ -74,6 +74,8 @@
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\venobox.css" />
+    <Content Include="fonts\Earth-From-Space-Wallpapers-HD.jpg" />
+    <Content Include="fonts\portfolio-7.jpg" />
     <Content Include="Images\apple-touch-icon.png" />
     <Content Include="Images\favicon.png" />
     <Content Include="Index.html" />
@@ -97,6 +99,9 @@
   <ItemGroup>
     <Content Include="fonts\icofont.woff" />
     <Content Include="fonts\boxicons.woff" />
+    <Content Include="Index.html.vsspell">
+      <DependentUpon>Index.html</DependentUpon>
+    </Content>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
