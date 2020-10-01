@@ -103,6 +103,7 @@
     <Content Include="Index.html.vsspell">
       <DependentUpon>Index.html</DependentUpon>
     </Content>
+    <Content Include="fonts\icofont.woff2" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
