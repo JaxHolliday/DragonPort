@@ -77,13 +77,13 @@
     <Content Include="Images\Blog.png" />
     <Content Include="Images\breakroom.jpg" />
     <Content Include="Images\0.jpg" />
-    <Content Include="Images\BugTracker.png" />
+    <Content Include="Images\Bugkiller.png" />
     <Content Include="Images\Finance API.png" />
     <Content Include="Images\Finance.png" />
     <Content Include="Images\FizzBuzz.png" />
-    <Content Include="Images\Sum of all Fears.gif" />
     <Content Include="Images\Sunset Hills.png" />
     <Content Include="Images\TacoCaT.png" />
+    <Content Include="Images\What are you afraid of .png" />
     <Content Include="Index.html" />
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
