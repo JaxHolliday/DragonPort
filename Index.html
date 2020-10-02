@@ -62,6 +62,7 @@
                     <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
                     <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
                     <!--<li><a href="#services"><i class="bx bx-server"></i> Services</a></li>-->
+                    <!--  -->
                     <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
 
                 </ul>
@@ -112,7 +113,7 @@
                             <div class="col-lg-6">
                                 <ul>
                                     <li><i class='bx bxs-chevrons-right'></i> <strong>Age:</strong> 27</li>                                    
-                                    <li><i class='bx bxs-chevrons-right'></i> <strong>Email:</strong> email@example.com</li>
+                                    <li><i class='bx bxs-chevrons-right'></i> <strong>Email:</strong> hollidaycodes@gmail.com</li>
                                     <li><i class='bx bxs-chevrons-right'></i> <strong>Freelance:</strong> Available</li>
                                 </ul>
                             </div>
@@ -207,7 +208,7 @@
                             <ul>
                                 <li>1231 Shields Rd. Kernersville, NC 27284</li>
                                 <li>(336) 231-8632</li>
-                                <li>alice.barkley@example.com</li>
+                                <li>hollidaycodes@gmail.com</li>
                             </ul>
                         </div>
 
@@ -277,13 +278,10 @@
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app"><!-- BugTracker Application -->
-                        <div class="portfolio-wrap">                            
+                        <div class="portfolio-wrap" data-toggle="modal" data-target="#modalBugTracker">                            
                             <img src="Images/Bugkiller.png" class="img-fluid" alt="Bugtracker">
-                            <div class="portfolio-links">
-                                <!--<a href="Images/BugTracker.png" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
-                                <!-- Button to Open the Modal -->
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalBugTracker">
+                            <div class="portfolio-links">                                
+                                <button type="button" class="btn btn-primary">
                                     Bugtracker
                                 </button>
 
@@ -293,14 +291,11 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app"><!-- Finance MVC -->
+                        <div class="portfolio-wrap" data-toggle="modal" data-target="#modalFinanceMVC">
                             <img src="Images/Finance.png" class="img-fluid" alt="Financial Portal (MVC)">
-                            <div class="portfolio-links">
-                                <!--<a href="Images/Finance.png" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
-                                <!-- Button to Open the Modal -->
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalFinanceMVC">
+                            <div class="portfolio-links">                                
+                                <button type="button" class="btn btn-primary">
                                     Financial Portal (MVC)
                                 </button>
                             </div>
@@ -309,13 +304,10 @@
 
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">                            
+                        <div class="portfolio-wrap" data-toggle="modal" data-target="#modalFinanceAPI">                            
                             <img src="Images/Finance API.png" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <!--<a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="app 2"><i class="bx bx-plus"></i></a>
-                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
-                                <!-- Button to Open the Modal -->
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalFinanceAPI">
+                            <div class="portfolio-links">                                
+                                <button type="button" class="btn btn-primary">
                                     Financial Portal (API)
                                 </button>
 
@@ -324,12 +316,10 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">                            
+                        <div class="portfolio-wrap" data-toggle="modal" data-target="#modalMyBlog">                            
                             <img src="Images/Blog.png" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <!--<a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalMyBlog">
+                            <div class="portfolio-links">                                
+                                <button type="button" class="btn btn-primary" >
                                     My Blog
                                 </button>
 
@@ -338,12 +328,12 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-Javascript">
-                        <div class="portfolio-wrap">
+                        <div class="portfolio-wrap" data-toggle="modal" data-target="#modalSunsetHills">
                             <img src="Images/Sunset Hills.png" class="img-fluid" alt="Sunset Hills">
                             <div class="portfolio-links">
                                 <!--<a href="Images/Sunset Hills.png" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalSunsetHills">
+                                <button type="button" class="btn btn-primary" >
                                     Welcome to Sunset Hills!
                                 </button>
 
@@ -352,12 +342,12 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-Javascript">
-                        <div class="portfolio-wrap">                            
+                        <div class="portfolio-wrap" data-toggle="modal" data-target="#modalSumofallFears">                            
                             <img src="Images/What are you afraid of .png" class="img-fluid" alt="Sum of all Fears">
                             <div class="portfolio-links">
                                 <!--<a href="Images/Sum of all Fears.gif" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalSumofallFears">
+                                <button type="button" class="btn btn-primary" >
                                     Sum of All Fears
                                 </button>
                             </div>
@@ -365,12 +355,12 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-Javascript">
-                        <div class="portfolio-wrap">
+                        <div class="portfolio-wrap" data-toggle="modal" data-target="#modalFizzBuzz">
                             <img src="Images/FizzBuzz.png" class="img-fluid" alt="">
                             <div class="portfolio-links">
                                 <!--<a href="Images/FizzBuzz.png" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalFizzBuzz">
+                                <button type="button" class="btn btn-primary" >
                                     FizzBuzz
                                 </button>
 
@@ -379,12 +369,12 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-Javascript">
-                        <div class="portfolio-wrap">
+                        <div class="portfolio-wrap" data-toggle="modal" data-target="#modalTacoCat">
                             <img src="Images/TacoCaT.png" class="img-fluid" alt="Tacocat">
                             <div class="portfolio-links">
                                 <!--<a href="Images/TacoCaT.png" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalTacoCat">
+                                <button type="button" class="btn btn-primary" >
                                     TacocaT (palindrome challenge)
                                 </button>
                             </div>
@@ -395,8 +385,7 @@
         <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
             <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                
             </div>
         </div>
     </div>-->
@@ -415,7 +404,16 @@
                     <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                 </div>
 
-                
+                <div class="testimonial-item" data-aos="fade-up">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                </div>
 
             </div>-->
         </section><!-- End Testimonials Section -->
@@ -425,26 +423,30 @@
 
                 <div class="section-title">
                     <h2>Contact</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>If any of my works or criteria fits your needs today, please feel free to reach out to me!
+                    I'd love to hear from you!</p>
                 </div>
 
                 <div class="row" data-aos="fade-in">
 
-                    <div class="col-sm-5 d-flex align-items-stretch">
-                        <div class="info">
-                            <div class="address">                                
+                    <div class="col-sm-5 d-flex align-items-stretch" >
+                        <div class="info" >
+                            <div class="address">
+                                <i><img src="Images/icons8-treasure-map-64.png" /></i>
                                 <h4>Location: </h4>
                                 <p>1231 Shields Rd. Kernersville, NC 27284</p>
                             </div>
 
-                            <div class="email">                                                               
+                            <div class="email">
+                                <i><img src="Images/icons8-email-64.png" /></i>
                                 <h4>Email: </h4>
-                                <p>info@example.com</p>
+                                <p>hollidaycodes@gmail.com</p>
                             </div>
 
-                            <div class="phone">                                
+                            <div class="phone">
+                                <i><img src="Images/icons8-cell-phone-64.png" /></i>
                                 <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <p>+1 336 382 0773</p>
                             </div>
 
 
@@ -488,7 +490,7 @@
 
 
             <!-- The Modal For Bug Tracker -->
-            <div class="modal" id="modalBugTracker">
+            <div class="modal fade" id="modalBugTracker">
                 <div class="modal-dialog">
                     <div class="modal-content">
 
@@ -513,7 +515,7 @@
             </div>
 
             <!-- The Modal For Finance MVC-->
-            <div class="modal" id="modalFinanceMVC">
+            <div class="modal fade" id="modalFinanceMVC">
                 <div class="modal-dialog">
                     <div class="modal-content">
 
@@ -538,7 +540,7 @@
             </div>
 
             <!-- The Modal For Finance API -->
-            <div class="modal" id="modalFinanceAPI">
+            <div class="modal fade" id="modalFinanceAPI">
                 <div class="modal-dialog">
                     <div class="modal-content">
 
@@ -563,7 +565,7 @@
             </div>
 
             <!-- The Modal For Blog -->
-            <div class="modal" id="modalMyBlog">
+            <div class="modal fade" id="modalMyBlog">
                 <div class="modal-dialog">
                     <div class="modal-content">
 
@@ -588,7 +590,7 @@
             </div>
 
             <!-- The Modal For Sunset Hills -->
-            <div class="modal" id="modalSunsetHills">
+            <div class="modal fade" id="modalSunsetHills">
                 <div class="modal-dialog">
                     <div class="modal-content">
 
@@ -613,7 +615,7 @@
             </div>
 
             <!-- The Modal For Sum of all Fears -->
-            <div class="modal" id="modalSumofallFears">
+            <div class="modal fade" id="modalSumofallFears">
                 <div class="modal-dialog">
                     <div class="modal-content">
 
@@ -638,7 +640,7 @@
             </div>
 
             <!-- The Modal For FIZZ Buzz -->
-            <div class="modal" id="modalFizzBuzz">
+            <div class="modal fade" id="modalFizzBuzz">
                 <div class="modal-dialog">
                     <div class="modal-content">
 
@@ -663,7 +665,7 @@
             </div>
 
             <!-- The Modal For Taco cat -->
-            <div class="modal" id="modalTacoCat">
+            <div class="modal fade" id="modalTacoCat">
                 <div class="modal-dialog">
                     <div class="modal-content">
 
@@ -694,11 +696,11 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
-
+            
         </div>
     </footer><!-- End  Footer -->
 
-    <a href="<img src="https://img.icons8.com/nolan/64/chevron--v2.png"/>" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    
 
     <!-- Vendor JS Files -->
 
