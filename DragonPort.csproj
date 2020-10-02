@@ -78,6 +78,7 @@
     <Content Include="Images\breakroom.jpg" />
     <Content Include="Images\0.jpg" />
     <Content Include="Images\Bugkiller.png" />
+    <Content Include="Images\Comming.png" />
     <Content Include="Images\Finance API.png" />
     <Content Include="Images\Finance.png" />
     <Content Include="Images\FizzBuzz.png" />
