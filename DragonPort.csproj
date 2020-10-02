@@ -77,6 +77,7 @@
     <Content Include="Images\breakroom.jpg" />
     <Content Include="Images\0.jpg" />
     <Content Include="Images\BugTracker.png" />
+    <Content Include="Images\Finance API.png" />
     <Content Include="Images\Finance.png" />
     <Content Include="Images\FizzBuzz.png" />
     <Content Include="Images\Sum of all Fears.gif" />
