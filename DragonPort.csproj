@@ -79,15 +79,15 @@
     <Content Include="Images\0.jpg" />
     <Content Include="Images\Bugkiller.png" />
     <Content Include="Images\Comming.png" />
-    <Content Include="Images\Finance API.png" />
     <Content Include="Images\Finance.png" />
+    <Content Include="Images\FinanceAPI.png" />
     <Content Include="Images\FizzBuzz.png" />
     <Content Include="Images\icons8-cell-phone-64.png" />
     <Content Include="Images\icons8-email-64.png" />
     <Content Include="Images\icons8-scroll-up-44.png" />
     <Content Include="Images\icons8-treasure-map-64.png" />
+    <Content Include="Images\Palin.png" />
     <Content Include="Images\Sunset Hills.png" />
-    <Content Include="Images\TacoCaT.png" />
     <Content Include="Images\What are you afraid of .png" />
     <Content Include="Index.html" />
     <Content Include="Scripts\aos.js" />
