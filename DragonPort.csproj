@@ -74,6 +74,7 @@
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\venobox.css" />
+    <Content Include="Images\Blog.png" />
     <Content Include="Images\breakroom.jpg" />
     <Content Include="Images\0.jpg" />
     <Content Include="Images\BugTracker.png" />
