@@ -74,11 +74,17 @@
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\venobox.css" />
+    <Content Include="Images\android-chrome-192x192.png" />
+    <Content Include="Images\android-chrome-512x512.png" />
+    <Content Include="Images\apple-touch-icon.png" />
     <Content Include="Images\Blog.png" />
     <Content Include="Images\breakroom.jpg" />
     <Content Include="Images\0.jpg" />
     <Content Include="Images\Bugkiller.png" />
     <Content Include="Images\Comming.png" />
+    <Content Include="Images\favicon-16x16.png" />
+    <Content Include="Images\favicon-32x32.png" />
+    <Content Include="Images\favicon.ico" />
     <Content Include="Images\Finance.png" />
     <Content Include="Images\FinanceAPI.png" />
     <Content Include="Images\FizzBuzz.png" />
