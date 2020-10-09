@@ -96,6 +96,7 @@
     <Content Include="Images\Sunset Hills.png" />
     <Content Include="Images\What are you afraid of .png" />
     <Content Include="Index.html" />
+    <Content Include="Content\PortfolioStyle.css" />
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\counterup.min.js" />
