@@ -121,7 +121,6 @@
       <DependentUpon>Index.html</DependentUpon>
     </Content>
     <Content Include="fonts\icofont.woff2" />
-    <Content Include="Images\site.webmanifest" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
