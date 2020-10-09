@@ -211,8 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background-image: url('../Images/breakroom.jpg') top center;
-    ;
+    background-image: url('../Images/breakroom.jpg');
     background-size: cover;
 }
 
