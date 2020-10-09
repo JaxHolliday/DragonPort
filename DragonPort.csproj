@@ -73,6 +73,7 @@
     <Content Include="Content\icofont.min.css" />
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\style.css" />
+    <Content Include="Content\ModalStyle.css" />
     <Content Include="Content\venobox.css" />
     <Content Include="Images\android-chrome-192x192.png" />
     <Content Include="Images\android-chrome-512x512.png" />
