@@ -279,10 +279,7 @@
                         <div class="portfolio-wrap" data-toggle="modal" data-target="#modalSunsetHills" onclick="Swal.fire()">
                             <img src="Images/Sunset Hills.png" class="img-fluid" alt="Sunset Hills">
                             <div class="portfolio-links">
-                                <button type="button" class="btn btn-primary">
-                                    Sunset Hills
-                                </button>
-
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalSunsetHills">Sunset Hill's</button>
                             </div>
                         </div>
                     </div>
@@ -291,11 +288,7 @@
                         <div class="portfolio-wrap" data-toggle="modal" data-target="#modalSumofallFears">
                             <img src="Images/What are you afraid of .png" class="img-fluid" alt="Sum of all Fears">
                             <div class="portfolio-links">
-                                <button type="button" class="btn btn-primary">
-                                    Sum of All Fears
-                                </button>
-
-
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalSumofallFears">Sum of all Fears</button>
                             </div>
                         </div>
                     </div>
@@ -304,11 +297,7 @@
                         <div class="portfolio-wrap" data-toggle="modal" data-target="#modalFizzBuzz">
                             <img src="Images/FizzBuzz.png" class="img-fluid" alt="Drink">
                             <div class="portfolio-links">
-                                <button type="button" class="btn btn-primary">
-                                    FizzBuzz
-                                </button>
-
-
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalFizzBuzz">FizzBuzz</button>
                             </div>
                         </div>
                     </div>
@@ -318,11 +307,7 @@
                         <div class="portfolio-wrap" data-toggle="modal" data-target="#modalTacoCat">
                             <img src="Images/Palin.png" class="img-fluid" alt="Tacocat">
                             <div class="portfolio-links">
-                                <button type="button" class="btn btn-primary">
-                                    TacocaT (palindrome challenge)
-                                </button>
-
-
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalTacoCat">TacoCat - Palindrome</button>
                             </div>
                         </div>
                     </div>
@@ -532,7 +517,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">emailjs.init('user_cOvv9B5yyEe1usYCVGBN2')</script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    
+
 
 
 
@@ -562,231 +547,301 @@
 
     </script>
 
-    
+
     <!-- Template Main JS File -->
     <script src="Scripts/main.js"></script>
 
 
 
     <!-- The Modal For Bug Tracker -->
-    <div class="modal fade" id="modalBugTracker">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
+    <!-- Central Modal Medium Info -->
+    <div class="modal fade" id="modalBugTracker" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+            <!--Content-->
             <div class="modal-content">
-
-                <!-- Modal Header -->
+                <!--Header-->
                 <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <p class="heading lead">Bug-tracker</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
                 </div>
 
-                <!-- Modal body -->
+                <!--Body-->
                 <div class="modal-body">
-                    <div container>
-                        <div class="row">
-                            <div class="col-md"></div>
-                        </div>
+                    <div class="text-center">
+                        <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis
+                            ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
+                            ab officiis totam.
+                        </p>
                     </div>
-                    Modal body..
                 </div>
 
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                    <a href="" type="button" class="btn btn-primary">Go Now <i class="far fa-gem ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Leave</a>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!-- The Modal For Finance MVC-->
-    <div class="modal fade" id="modalFinanceMVC">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
+    <!-- Central Modal Medium Info -->
+    <div class="modal fade" id="modalFinanceMVC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+            <!--Content-->
             <div class="modal-content">
-
-                <!-- Modal Header -->
+                <!--Header-->
                 <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <p class="heading lead">Financial Portal (MVC)</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
                 </div>
 
-                <!-- Modal body -->
+                <!--Body-->
                 <div class="modal-body">
-                    Modal body..
+                    <div class="text-center">
+                        <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis
+                            ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
+                            ab officiis totam.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                    <a href="" type="button" class="btn btn-primary">Go Now <i class="far fa-gem ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Leave</a>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!-- The Modal For Finance API -->
-    <div class="modal fade" id="modalFinanceAPI">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
+    <!-- Central Modal Medium Info -->
+    <div class="modal fade" id="modalFinanceAPI" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+            <!--Content-->
             <div class="modal-content">
-
-                <!-- Modal Header -->
+                <!--Header-->
                 <div class="modal-header">
-                    <h4 class="modal-title">Financial API</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <p class="heading lead">Financial Portal (API)</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
                 </div>
 
-                <!-- Modal body -->
+                <!--Body-->
                 <div class="modal-body">
-                    Modal body..
+                    <div class="text-center">
+                        <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis
+                            ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
+                            ab officiis totam.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                    <a href="" type="button" class="btn btn-primary">Go Now <i class="far fa-gem ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Leave</a>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!-- The Modal For Blog -->
-    <div class="modal fade" id="modalMyBlog">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
+    <!-- Central Modal Medium Info -->
+    <div class="modal fade" id="modalMyBlog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+            <!--Content-->
             <div class="modal-content">
-
-                <!-- Modal Header -->
+                <!--Header-->
                 <div class="modal-header">
-                    <h4 class="modal-title">Blog</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <p class="heading lead">Fun Web Dev Information</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
                 </div>
 
-                <!-- Modal body -->
+                <!--Body-->
                 <div class="modal-body">
-                    Modal body..
+                    <div class="text-center">
+                        <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                        <p>My blog is full of facts and information that those might find interesting for a short, quick read.</p>
+                    </div>
                 </div>
 
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                    <a href="" type="button" class="btn btn-primary">Go the blog<i class="far fa-gem ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Leave</a>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!-- The Modal For Sunset Hills -->
-    <div class="modal fade" id="modalSunsetHills">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
+    <!-- Central Modal Medium Info -->
+    <div class="modal fade" id="modalSunsetHills" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+            <!--Content-->
             <div class="modal-content">
-
-                <!-- Modal Header -->
+                <!--Header-->
                 <div class="modal-header">
-                    <h4 class="modal-title">Sunset Hills</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <p class="heading lead">Welcome to Sunset Hill's!</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
                 </div>
 
-                <!-- Modal body -->
+                <!--Body-->
                 <div class="modal-body">
-                    Modal body..
+                    <div class="text-center">
+                        <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                        <p> The Sunset Hills coding challenge is intended to assess a candidate’s ability to work with Arrays.This challenge or a slight variation has been used by technology companies such as Amazon and was also featured on a Geeks for Geeks blog post titled “Amazon Interview Experience | Set 189 (For SDE-1)”
+                        </p>
+                        <br />
+                        <p>Hit the button below to visit!</p>
+                    </div>
                 </div>
 
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                    <a href="https://welcometo-sunsethills.netlify.app/" type="button" class="btn btn-primary">Visit Sunset Hill's<i class="far fa-gem ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Leave</a>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!-- The Modal For Sum of all Fears -->
-    <div class="modal fade" id="modalSumofallFears">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
+    <!-- Central Modal Medium Info -->
+    <div class="modal fade" id="modalSumofallFears" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+            <!--Content-->
             <div class="modal-content">
-
-                <!-- Modal Header -->
+                <!--Header-->
                 <div class="modal-header">
-                    <h4 class="modal-title">Sum of all Fears</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <p class="heading lead">Sum of all Fears</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
                 </div>
 
-                <!-- Modal body -->
-                <div class="modal-body" id="SOAF">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <p style="font-size:200%">Please visit and try it out and view the code used to make it!</p>
-                                <br /><img style="background" src ="Images/What are you afraid of .png" /> <br />
-                                <p style="font-size:200%">Click below to be transfered to my Sums of all Fears program.</p>
-                                <br />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <a class="button btn btn-primary" style="width:100%" href="https://sumoffears.netlify.app/" target="_blank">Go to Sum of all Fears</a>
-                            </div>
-                        </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="text-center">
+                        <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                        <p> The Sum of all fears coding challenge is intended to assess a candidate’s ability to work with Arrays.This challenge or a slight variation has been used by technology companies such as Amazon and Google and was also featured as a Daily Coding Problem in dev.to.
+                        </p>
+                        <br />
+                        <p>Hit the button below to visit!</p>
                     </div>
                 </div>
 
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                    <a href="https://sumoffears.netlify.app/" type="button" class="btn btn-primary">Visit<i class="far fa-gem ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Leave</a>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!-- The Modal For FIZZ Buzz -->
-    <div class="modal fade" id="modalFizzBuzz">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
+    <!-- Central Modal Medium Info -->
+    <div class="modal fade" id="modalFizzBuzz" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+            <!--Content-->
             <div class="modal-content">
-
-                <!-- Modal Header -->
+                <!--Header-->
                 <div class="modal-header">
-                    <h4 class="modal-title">Fizz Buzz</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <p class="heading lead">FizzBuzz</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
                 </div>
 
-                <!-- Modal body -->
+                <!--Body-->
                 <div class="modal-body">
-                    Modal body..
+                    <div class="text-center">
+                        <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                        <p>The Fizzbuzz coding challenge was invented in 2007 by Imran Ghoryin in order to assess developer competence. Since its conception the Fizzbuzz challenge has been used by Facebook and Microsoft as interview tools and has also been taught at Stanford, Berkley, Caltech and countless other universities.
+                        </p>
+                        <br />
+                        <p>Hit the button below to visit!</p>
+                    </div>
                 </div>
 
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                    <a href="https://infalliblefizzbuzz.netlify.app/" type="button" class="btn btn-primary">Go get a drink!<i class="far fa-gem ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Leave</a>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!-- The Modal For Taco cat -->
-    <div class="modal fade" id="modalTacoCat">
-        <div class="modal-dialog modal-xl modal-dialog-centered">
+    <!-- Central Modal Medium Info -->
+    <div class="modal fade" id="modalTacoCat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+            <!--Content-->
             <div class="modal-content">
-
-                <!-- Modal Header -->
+                <!--Header-->
                 <div class="modal-header">
-                    <h4 class="modal-title">TacocaT (palindrome challenge)</h4>                    
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <p class="heading lead">TacoCat - A Palindrome</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
                 </div>
 
-                <!-- Modal body -->
+                <!--Body-->
                 <div class="modal-body">
-                    
-                    <a class="button btn btn-primary" style="width:100%" href="https://hollidaystacocat.netlify.app/index.html" target="_blank">Go to Tacocat</a>
+                    <div class="text-center">
+                        <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                        <p>A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward.
+                           TacoCat is a palindrome. It is just an example and a name for the challenge instead of just calling it a palindrome. Importantly, Tacocat gives it a theme! 
+                        </p>
+                        <br />
+                        <p>Hit the button below to visit!</p>
+                    </div>
                 </div>
 
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                    <a href="https://hollidaystacocat.netlify.app/" type="button" class="btn btn-primary">Catch a TacoCat!<i class="far fa-gem ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Leave</a>
                 </div>
-
             </div>
         </div>
     </div>
+
 
 
 
