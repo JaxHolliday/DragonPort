@@ -81,6 +81,7 @@
     <Content Include="Images\Blog.png" />
     <Content Include="Images\BlogMain.png" />
     <Content Include="Images\breakroom.jpg" />
+    <Content Include="Images\Buzz.png" />
     <Content Include="Images\Comming.png" />
     <Content Include="Images\DragonTracker.png" />
     <Content Include="Images\favicon-16x16.png" />
@@ -91,10 +92,14 @@
     <Content Include="Images\FizzBuzz.png" />
     <Content Include="Images\jackson-01.jpg" />
     <Content Include="Images\jackson-13 %282%29.jpg" />
+    <Content Include="Images\JJJBank.png" />
     <Content Include="Images\Login.png" />
     <Content Include="Images\Mort.png" />
     <Content Include="Images\Palin.png" />
+    <Content Include="Images\SUN.png" />
     <Content Include="Images\Sunset Hills.png" />
+    <Content Include="Images\Sunset.png" />
+    <Content Include="Images\Taco.png" />
     <Content Include="Images\What are you afraid of .png" />
     <Content Include="Index.html" />
     <Content Include="Content\PortfolioStyle.css" />
