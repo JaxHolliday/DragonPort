@@ -124,6 +124,7 @@
       <DependentUpon>Index.html</DependentUpon>
     </Content>
     <Content Include="fonts\icofont.woff2" />
+    <Content Include="Files\Jackson Holliday.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
