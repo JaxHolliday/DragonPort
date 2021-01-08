@@ -523,7 +523,7 @@
                         form.reset();
                     }, (err) => {
                         btn.value = 'Send Email';
-                        alert(JSON.stringify(err));
+                        swal("Sorry!", "Failed to Send!", "error");
                     });
             });
 
