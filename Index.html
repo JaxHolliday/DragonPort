@@ -149,27 +149,27 @@
                     <!--<div class="col-lg-4 col-md-6 portfolio-item filter-app">-->
                     <!-- Finance MVC -->
                     <!--<div class="portfolio-wrap" data-toggle="modal" data-target="#modalFinanceMVC">
-                        <img src="Images/Finance.png" class="img-fluid" alt="Financial Portal (MVC)">
-                        <div class="portfolio-links">
-                            <button type="button" class="btn btn-primary">
-                                Financial Portal (MVC)
-                            </button>
+                            <img src="Images/Finance.png" class="img-fluid" alt="Financial Portal (MVC)">
+                            <div class="portfolio-links">
+                                <button type="button" class="btn btn-primary">
+                                    Financial Portal (MVC)
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap" data-toggle="modal" data-target="#modalFinanceAPI">
-                        <img src="Images/FinanceAPI.png" class="img-fluid" alt="">
-                        <div class="portfolio-links">
-                            <button type="button" class="btn btn-primary">
-                                Financial Portal (API)
-                            </button>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap" data-toggle="modal" data-target="#modalFinanceAPI">
+                            <img src="Images/FinanceAPI.png" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <button type="button" class="btn btn-primary">
+                                    Financial Portal (API)
+                                </button>
 
+                            </div>
                         </div>
-                    </div>
-                </div>-->
+                    </div>-->
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap" data-toggle="modal" data-target="#modalMyBlog">
@@ -346,7 +346,7 @@
                                 <li>(336) 382-0773</li>
                                 <li>jaxholliday@gmail.com</li>
                             </ul>
-                        </div>                        
+                        </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="resume-title">Professional Experience</h3>
@@ -357,9 +357,11 @@
                             <ul>
                                 <li>Created two primary projects, including:</li>
                                 <li>1. A portfolio and blog site using C#, MVC, HTML5, CSS3, Bootstrap, JS & Jquery.</li>
-                                <li>2. Fully designed and developed a multi-functional issue tracker web application, implementing enhanced roles & security,
-                                including a Code-First relational database designed and modeled in SQL Server.
-                                Technologies used include: .Net Core v3.1, MVC5, C#, LINQ, Postgres SQL, Entity Framework, Docker, and jQuery DataTables.</li>
+                                <li>
+                                    2. Fully designed and developed a multi-functional issue tracker web application, implementing enhanced roles & security,
+                                    including a Code-First relational database designed and modeled in SQL Server.
+                                    Technologies used include: .Net Core v3.1, MVC5, C#, LINQ, Postgres SQL, Entity Framework, Docker, and jQuery DataTables.
+                                </li>
                             </ul>
                         </div>
                         <div class="resume-item">
@@ -372,33 +374,33 @@
                                 <li>Handled products and equipment in accordance with food safety and safety guidelines to ensure a safe shopping environment.</li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
         </section><!-- End Resume Section -->
         <!-- ======= Testimonials Section ======= -->
         <!--<section id="testimonials" class="testimonials section-bg">
-        <div class="container">
+            <div class="container">
 
-            <div class="section-title">
-                <h2>Testimonials</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <div class="section-title">
+                    <h2>Testimonials</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+
+                <div class="testimonial-item" data-aos="fade-up">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                </div>
+
             </div>
-
-            <div class="testimonial-item" data-aos="fade-up">
-                <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-            </div>
-
-        </div>
-    </section>-->
+        </section>-->
         <!-- End Testimonials Section -->
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
@@ -519,11 +521,21 @@
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
                         btn.value = 'Send Email';
-                        swal("Excellent!", "Message Sent!", "success");
+                        swal({
+                            title: "Message Sent!",
+                            text: "Thank you for you email!",
+                            icon: "success",
+                            button: "Continue",
+                        });
                         form.reset();
                     }, (err) => {
                         btn.value = 'Send Email';
-                        swal("Sorry!", "Failed to Send!", "error");
+                        swal({
+                            title: "Sorry!",
+                            text: "Failed to Send!",
+                            icon: "error",
+                            button: "Try Again",
+                        });
                     });
             });
 
@@ -537,11 +549,11 @@
 
     <!-- The Modal For Bug Tracker -->
     <!-- Central Modal Medium Info -->
-    <div class="modal fade" id="modalBugTracker"  role="dialog" aria-labelledby="myModalLabel" data-easein="bounceUpIn"
+    <div class="modal fade" id="modalBugTracker" role="dialog" aria-labelledby="myModalLabel" data-easein="bounceUpIn"
          aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <!--Content-->
-            <div class="modal-content"> 
+            <div class="modal-content">
                 <br />
                 <h1 class="text-center" style="color:blue; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">DragonTracker</h1>
                 <br />
@@ -812,7 +824,7 @@
                         <a href="https://jonesjobejackson.netlify.app/" target="_blank" type="button" class="btn btn-primary">Estimate your loan!<i class="far fa-gem ml-1 text-white"></i></a>
                         <button type="button" class="btn btn-primary" data-dismiss="modal">Leave</button>
                     </div>
-                </div>               
+                </div>
             </div>
         </div>
     </div>
