@@ -81,11 +81,11 @@
     <Content Include="Images\BlogCover.png" />
     <Content Include="Images\BlogMain.png" />
     <Content Include="Images\breakroom.jpg" />
-    <Content Include="Images\Buzz.png" />
     <Content Include="Images\DragonTracker.png" />
     <Content Include="Images\favicon-16x16.png" />
     <Content Include="Images\favicon-32x32.png" />
     <Content Include="Images\favicon.ico" />
+    <Content Include="Images\FBRe.png" />
     <Content Include="Images\FizzBuzz.png" />
     <Content Include="Images\jackson-01.jpg" />
     <Content Include="Images\jackson-13 %282%29.jpg" />
