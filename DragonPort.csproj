@@ -97,7 +97,7 @@
     <Content Include="Images\Sum Cover.png" />
     <Content Include="Images\Sunset.png" />
     <Content Include="Images\SunsetCover.png" />
-    <Content Include="Images\Taco.png" />
+    <Content Include="Images\TacoCover.png" />
     <Content Include="Index.html" />
     <Content Include="Content\PortfolioStyle.css" />
     <Content Include="Scripts\aos.js" />
