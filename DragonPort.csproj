@@ -78,12 +78,13 @@
     <Content Include="Images\android-chrome-192x192.png" />
     <Content Include="Images\android-chrome-512x512.png" />
     <Content Include="Images\apple-touch-icon.png" />
+    <Content Include="Images\BlackTacoCat.gif" />
+    <Content Include="Images\Blog.gif" />
     <Content Include="Images\BlogCover.png" />
     <Content Include="Images\BlogMain.png" />
     <Content Include="Images\breakroom.jpg" />
     <Content Include="Images\DogCover.png" />
     <Content Include="Images\DragonTracker.png" />
-    <Content Include="Images\Event.gif" />
     <Content Include="Images\favicon-16x16.png" />
     <Content Include="Images\favicon-32x32.png" />
     <Content Include="Images\favicon.ico" />
@@ -91,16 +92,16 @@
     <Content Include="Images\FizzBuzz.png" />
     <Content Include="Images\jackson-01.jpg" />
     <Content Include="Images\jackson-13 %282%29.jpg" />
+    <Content Include="Images\JJJ Gem.gif" />
     <Content Include="Images\JJJBank.png" />
     <Content Include="Images\LoanRevampCover.png" />
     <Content Include="Images\Login.png" />
-    <Content Include="Images\Mario coin.gif" />
-    <Content Include="Images\Palin.png" />
-    <Content Include="Images\Ruppees.gif" />
+    <Content Include="Images\Ruppee 1.gif" />
     <Content Include="Images\SHills.png" />
     <Content Include="Images\SOAF Cover.png" />
-    <Content Include="Images\Sum Cover.png" />
+    <Content Include="Images\Sum.gif" />
     <Content Include="Images\SunHill.jpg" />
+    <Content Include="Images\SuperDog.gif" />
     <Content Include="Images\TacoCover.png" />
     <Content Include="Index.html" />
     <Content Include="Content\PortfolioStyle.css" />
@@ -122,12 +123,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\icofont.woff" />
+    <Content Include="Content\fonts\icofont.woff" />
     <Content Include="fonts\boxicons.woff" />
     <Content Include="Index.html.vsspell">
       <DependentUpon>Index.html</DependentUpon>
     </Content>
-    <Content Include="fonts\icofont.woff2" />
+    <Content Include="Content\fonts\icofont.woff2" />
     <Content Include="Files\Jackson Holliday.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
