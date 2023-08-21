@@ -75,6 +75,9 @@
     <Content Include="Content\style.css" />
     <Content Include="Content\ModalStyle.css" />
     <Content Include="Content\venobox.css" />
+    <Content Include="Images\AiChef.png" />
+    <Content Include="Images\AIChefBG2.png" />
+    <Content Include="Images\AiChefLogoDark.png" />
     <Content Include="Images\android-chrome-192x192.png" />
     <Content Include="Images\android-chrome-512x512.png" />
     <Content Include="Images\apple-touch-icon.png" />

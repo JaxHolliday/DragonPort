@@ -168,6 +168,18 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <!-- AiChef Application -->
+                        <div class="portfolio-wrap" data-toggle="modal" data-target="#modalAiChef">
+                            <img src="Images/AiChef.png" class="img-fluid" alt="AiChef"/>
+                            <div class="portfolio-links">
+                                <button type="button" class="btn btn-primary mb-2">
+                                    AiChef
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -384,9 +396,9 @@
                                 </li>
                                 <li>
                                     <b>HadesPro-</b> A movie browsing application allowing one to view movies current, old and future releases. With details consisting of actors, summaries and more using the TMDB Movie API.
-                                   <ul>
-                                       <li>Built with .Net 5, MVC6, C#,  LINQ, PostgreSQL, Entity Framework, PgAdmin</li>
-                                   </ul>                                    
+                                    <ul>
+                                        <li>Built with .Net 5, MVC6, C#,  LINQ, PostgreSQL, Entity Framework, PgAdmin</li>
+                                    </ul>
                                 </li>
                                 <li>
                                     <b>ContactPro- </b>A secure, multi-tenant contact management application.
@@ -394,7 +406,7 @@
                                         <li>Easily organize contacts and search by name or category</li>
                                         <li>Email individual contacts or entire categories</li>
                                         <li>Built with MVC in .NET 6, Postgres, and Bootstrap</li>
-                                    </ul> 
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
@@ -549,6 +561,39 @@
 
     <!-- Template Main JS File -->
     <script src="Scripts/main.js"></script>
+
+    <!-- The Modal For AiChef -->
+    <!-- Central Modal Medium Info -->
+    <div class="modal fade" id="modalAiChef" role="dialog" aria-labelledby="myModalLabel" data-easein="bounceUpIn"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <br />
+                <h1 class="text-center" style="color:blue; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">AiChef</h1>
+                <hr />
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="text-center">
+                        <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                        <p>
+                            AiChef is an online application, using the power of Blazor Web Assembly
+                            and OpenAi, allowing one to add ingredients there looking to use into a
+                            list that can generate possible recipe ideas and providing you with a
+                            printable recipe for use.
+                        </p>
+                        <p style="font-size: 15px;">Technologies Used: HTML, JavaScript, CSS, Bootstrap 5, Blazor Web Assembly, C#, LINQ</p>
+                        <p><img class="img-fluid" src="Images/AIChefBG2.png" style="width:600px; height:300px;" /></p>
+                        <br />
+                        <a href="https://aichef-production-a950.up.railway.app/" target="_blank" type="button" class="btn btn-primary rounded-pill">Go create a meal! <i class="far fa-gem ml-1 text-white"></i></a>
+                        <button type="button" class="btn btn-primary rounded-pill" data-dismiss="modal">Leave</button>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- The Modal For ContactPro -->
     <!-- Central Modal Medium Info -->
